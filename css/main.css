@@ -76,6 +76,14 @@ h4 {
   background-color: #823030;
 }
 
+.btn-grey {
+  background-color: #7f8c8d;
+  color: #fff !important;
+}
+
+.btn-grey:hover {
+  background-color: #7f8c8d;
+}
 
 .footer {
   background-color: #a30000;
