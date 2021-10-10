@@ -1,0 +1,29 @@
+.home-bg-image {
+  background-image: url('/images/background.jpg');
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-bg-image h1 {
+  color: #f3f3f4;
+  font-size: 5em;
+  font-family: 'Lato', sans-serif;
+  align-self: flex-end;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content-container {
+  background: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: -150px;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    margin-top: 10px;
+  }
+}

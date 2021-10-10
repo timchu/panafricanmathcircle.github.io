@@ -1,0 +1,25 @@
+<header class="site-header">
+  <nav class="navbar navbar-light">
+    <a class="navbar-brand" href="{{ site.baseurl }}/"><img alt="Logo" src="{{ "/images/loop_logo_small.png" | prepend: site.baseurl }}"></a>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ "/guias" | prepend: site.baseurl }}">Guias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/concursos" | prepend: site.baseurl }}">Concursos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/sobre" | prepend: site.baseurl }}">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/selecao" | prepend: site.baseurl }}">Seleção</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ "/solucoes" | prepend: site.baseurl }}">Soluções</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://oni.dcc.fc.up.pt/">ONI</a>
+      </li>
+    </ul>
+  </nav>
+</header>

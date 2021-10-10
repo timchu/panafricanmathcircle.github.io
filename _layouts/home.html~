@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="promo-container" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{{ "/images/oni_back2.jpg" | prepend: site.baseurl }}" class="d-block w-100" alt="Background">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Novos guias para iniciantes!</h1>
+              <p>
+                Vais participar pela primeira vez nas ONI? Já
+                participaste nas ONI mas queres aprender os conceitos
+                básicos para conseguir ter um bom desempenho? Criámos
+                um conjunto de 10 artigos acompanhados de problemas de
+                treino para ensinar as bases de programação e
+                algoritmos.
+              </p>
+
+              <p>
+                Consulta os artigos <a href="{{ site.baseurl
+                }}/guias/inicial">aqui</a> e começa o teu caminho para
+                o sucesso!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="{{ "/images/oni_back.jpg" | prepend: site.baseurl }}" class="d-block w-100" alt="Background">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Bem-vindos ao loop!</h1>
+              <p>
+                O loop é uma coleção de recursos de treino para as
+                Olimpíadas Nacionais de Informática
+                (<a href="/loop/sobre">o que aconteceu ao antigo
+                  loop?</a>). Contém
+                vários <a href="/loop/guias">guias</a> com artigos e
+                problemas, organizados e ordenados por níveis de
+                dificuldade, para os mais avançados mas também para
+                quem ainda nem sequer sabe programar (é fácil). Além
+                disso, contém vários links úteis, de repositórios
+                de <a href="/loop/concursos">problemas e concursos</a>
+                interessantes.
+              </p>
+                
+              <p>
+                Não percas tempo, começa
+                a <a href="/loop/guias">treinar</a>! Ou então lê sobre
+                como está estruturado o
+                loop <a href="/loop/guias/intro/introloop/">aqui</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content-container">
+      {{ content }}
+    </div>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
