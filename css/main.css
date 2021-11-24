@@ -102,3 +102,19 @@ h4 {
 .footer a:hover {
   color: #b185a7;
 }
+
+.normal-list {
+  margin-left: 15px;
+  padding-left: 10px;
+  border-left: 2px solid #a30000;
+  list-style-type: none;
+}
+
+.normal-list li {
+  margin-bottom: 5px;
+}
+
+.h-main {
+  text-align: center;
+  margin-bottom: 50px;
+}
